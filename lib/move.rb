@@ -16,4 +16,3 @@ def move(board, index, player = "X")
   
   puts board
 end
-
