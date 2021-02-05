@@ -14,6 +14,6 @@ end
 
 def move (board, index, player = "X")
  
-  display_board (board)
+  puts "Test"
 end
 
