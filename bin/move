@@ -11,4 +11,4 @@ input = gets.strip
 input_int = input_to_index(input)
 puts input_int
 
-move (board, input_int)
+board = move (board, input_int)
