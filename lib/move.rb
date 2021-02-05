@@ -13,6 +13,6 @@ end
 
 def move (board, index, player = "X")
   
-  puts board
+  puts boardrub
 end
 
