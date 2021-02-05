@@ -10,6 +10,4 @@ puts "Where would you like to go?"
 input = gets.strip
 input_int = input_to_index(input)
 
-board [2] = "X"
-puts board
 # board = move(board, input_int)
