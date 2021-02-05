@@ -7,7 +7,9 @@ require_relative '../lib/move.rb'
 puts "Hi! I'm HAL, what's your name?"
 
 board = [" "," "," "," "," "," "," "," "," ",]
-display_board (board)
 
 puts "Where would you like to go?"
+
 input = gets.strip
+input_int = input_to_index(input)
+move (board, input_int)
