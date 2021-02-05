@@ -12,7 +12,7 @@ def input_to_index (input)
  index - 1
 end
 
-def move (board, index, player = "X")
+def move (sew, index, player = "X")
   swe[index] = player
 end
 
