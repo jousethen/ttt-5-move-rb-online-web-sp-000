@@ -11,5 +11,5 @@ input = gets.strip
 index = input_to_index(input)
 
 move(board, index)
-puts board
+puts sew
 display_board (board)
